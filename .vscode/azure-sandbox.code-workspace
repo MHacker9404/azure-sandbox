@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "path": "AzureFunctionTimer"
+        },
+        {
+            "path": "./kv-key-rotation"
+        },
+        {
+            "path": "./HttpExample"
+        }
+    ],
+    "settings": {
+        "debug.internalConsoleOptions": "neverOpen"
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "echo",
+                "type": "shell",
+                "command": "echo Hello"
+            }
+        ]
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": [
+            {
+                "name": "Attach to both apps",
+                "configurations": [ ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "azureFunctions.deploySubpath": "kv-key-rotation/bin/Release/net6.0/publish",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "azureFunctions.preDeployTask": "publish (functions)",
+  "azureFunctions.templateFilter": "All"
+}
